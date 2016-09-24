@@ -5,4 +5,6 @@ Rails.application.routes.draw do
     match '/mycontroller' => 'general#mycontroller'
     # Additional help page example
     match '/help/help_out' => 'help#help_out'
+    # Additional privacy policy
+    match '/help/privacy_policy' => 'help#privacy_policy'
 end
