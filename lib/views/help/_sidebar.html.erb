@@ -1,20 +1,18 @@
 <div id="right_column_flip">
-    <h2>Help pages</h2>
+    <h2>Ajutor/secțiuni</h2>
     <ul class="no_bullets">
-        <li><%= link_to_unless_current "Introduction", help_about_path %></li>
-        <li><%= link_to_unless_current "Making requests", help_requesting_path %></li>
-        <li><%= link_to_unless_current "Your privacy", help_privacy_path %></li>
-        <li><%= link_to_unless_current "FOI officers", help_officers_path %></li>
-        <li><%= link_to_unless_current "About the software", help_alaveteli_path %></li>
-        <li><%= link_to_unless_current "Credits", help_credits_path %></li>
-        <li><%= link_to_unless_current "Programmers API", help_api_path %></li>
-        <li><%= link_to_unless_current "Help us", help_general_path(:action => 'help_out') %></li>
-        <li><%= link_to_unless_current "Advanced search", advanced_search_path %></li>
+        <li><%= link_to_unless_current "Despre noi", help_about_path %></li>
+        <li><%= link_to_unless_current "Acces la informații", help_requesting_path %></li>
+        <li><%= link_to_unless_current "Confidențialitate", help_privacy_path %></li>
+        <li><%= link_to_unless_current "Pentru instituții", help_officers_path %></li>
+        <li><%= link_to_unless_current "Software", help_alaveteli_path %></li>
+        <li><%= link_to_unless_current "Mulțumiri", help_credits_path %></li>
+        <li><%= link_to_unless_current "API/programatori", help_api_path %></li>
+        <li><%= link_to_unless_current "Interogări", advanced_search_path %></li>
     </ul>
 
-    <h2 id="contact">Contact us</h2>
-    <p>If your question isn't answered here, or you just wanted to let us know
-    something about the site, <a href="<%= help_contact_path %>">contact&nbsp;us</a>.
+    <h2 id="contact">Contact</h2>
+    <p>Dacă niciuna dintre secțiunile paginii de Ajutor nu ți-a oferit un răspuns satisfăcător la întrebările tale, ori dacă vrei să ne trimiți o sugestie despre site, contactează-ne <a href="/contact">aici</a>.
     </p>
 </div>
 
