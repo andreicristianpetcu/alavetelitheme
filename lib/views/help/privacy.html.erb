@@ -2,49 +2,132 @@
 
 <%= render :partial => 'sidebar' %>
 <div id="left_column_flip">
-    <h1>Confidențialitatea dumneavoastră</h1>
-    
-    <p>Publicul larg poate vedea doar numele dumneavoastră in NuVăSupărați.info, dacă nu vă oferiți alte informații confidențiale către instituția la care faceți solicitarea.</p>
-    <p>Noi sugerăm să nu dați nicio informație cu caracter personal către instituția de la care solicitați informații - de exemplu, numărul de telefon, adresa, adresa de e-mail, loc de muncă sau alte informații personale. Nu trebuie să divulgați aceste informații pentru a vă exercita dreptul de a obține informații.</p>
-    <p>În cazul în care un angajat al unei instituții trebuie să ia legătura prin telefon cu dumneavoastră pentru a clarifica solicitarea, vă recomandăm să trimiteți numărul dvs. direct, nu prin intermediul acestui site.</p>
+  <p></p>
 
-    <h2 id="email_address">Cine poate vedea adresa mea de e-mail?</h2>
-    <p><strong>Adresa dunveavoastră de email NU va fi dezvăluită:</strong></p>
+  <p>
+    Publicul larg poate vedea doar numele tău pe NuVăSupărați.info, dacă nu oferi alte informații confidențiale către instituția de la care soliciți informații.
+  </p>
+
+  <p>
+    Noi îți sugerăm să nu dai informații cu caracter personal către instituție - cel puțin, să nu dai mai multe informații decât sunt cu adevărat necesare, conform art. 6 din lege, coroborat cu art. 15, alin. 5 din normele metodologice. Rămâne să decizi singur ce informații personale sunt absolut necesare pentru a-ți exercita dreptul de a obține informații și ce informații personale nu merită să apară permanent pe web.
+  </p>
+
+  <p>
+    În cazul în care un angajat al unei instituții trebuie să ia legătura prin telefon cu tine (sau orice alte informații personale), pentru a clarifica solicitarea, îți recomandăm să trimiți acele detalii printr-un mesaj direct, nu prin intermediul acestui site.
+  </p>
+
+    <h2><a id="email"href="#email">Cine poate vedea adresa mea de email?</a></h2>
+
+    <p>
+      Adresa ta de email NU va fi dezvăluită
+    </p>
+
     <ul>
-        <li>Pe site-ul de NuVăSupărați.info, exceptând dacă o includeți în solicitarea dumneavoastră.</li> 
-        <li>Unei terțe părți, dacă nu sunt cerute de lege în mod specific. Serverele NuVăSupărați.info sunt situate în Europa, unde sunt protejate de legislația Uniunii Europene privind protecția vieții private și a datelor, așa cum este detaliat în <a href="/help/privacy_policy">Politica de confidențialitate</a>.</li>
-        <li>Instituției la care se face solicitarea. Instituția vede doar o adresă de e-mail @nuvasuparati.info generată automat pentru solicitarea dumneavoastră.</li>
+      <li>pe site-ul NuVăSupărați.info, exceptând situațiile în care chiar tu o incluzi într-o solicitarea de acces la informații;</li>
+      <li>unei terțe părți, exceptând situațiile în care astfel de informații sunt cerute de lege în mod specific; serverele NuVăSupărați.info sunt situate în Europa, unde sunt protejate de legislația Uniunii Europene privind protecția vieții private și a datelor, așa cum este detaliat în Politica de confidențialitate.</li>
+      <li>instituției către care se trimite solicitarea; instituția vede doar o adresă de e-mail @nuvasuparati.info, generată automat pentru solicitarea ta.</li>
     </ul>
-    <p><strong>Adresa dvs. de e-mail va fi dezvăluită</strong> dacă trimiteți un mesaj unui alt utilizator NuVăSupărați.info. Vă vom aminti înainte de a trimite mesajul.</p>
-    
-    <h2>Veți publica, oferi sau vinde adresa mea de email?</h2>
-    <p>Nu! Niciodată nu vom oferi sau vinde adresa dumneavoastră de email nimănui, dacă nu ni se cere asta prin lege.</p>
-    <p>Dacă vă înscrieți, vă vom trimite e-mail-uri legate exclusiv de solicitarea dumneavoastră sau alte alerte pe care le-ați autorizat explicit. Mai multe detalii în <a href="/help/privacy_policy">Politica de confidențialitate</a>.</p>
 
-    <h2 id="public_request">De ce sunt publicate numele meu și solicitarea mea în NuVăSupărați.info?</h2>
-    <p>Noi publicăm solicitarea pe Internet pentru ca toată lumea să poată să o citească și să folosească infromațiile pe care le-am obținut. Noi nu eliminăm de obicei solicitări (<a href="#delete">mai multe detalii</a>).</p>
-    <p>Numele dvs. este publicat, pentru că este o parte a solicitării. Este normal ca acest lucru să se întâmple, și va fi, de asemenea, făcut public numele angajatului instituției care va răspunde.</p>
-    <p>Utilizarea numelui real îi ajută pe alți cetățeni să vă contacteze pentru a sprijini solicitarea dumneavoastră.</p>
-    
-    <h2 id="real_name">Pot solicita informații folosind un pseudonim?</h2>
-    <p>Vă recomandăm să folosiți numele real atunci când trimiteți solicitări de acces la informații. Va exercitati un drept care constituie baza unei societăți deschise și democratice. Deci, folositi numele real nu ar trebui să fie o problemă. De fapt, acest lucru contribuie în mod pozitiv în a obține o mai bună comunicare cu instituția.</p> 
-    <p>Dacă numele dumneavoastră este bine cunoscut, puteți ruga un prieten să trimmită solicitarea în numele dumneavoastră. Dacă nu știți cum să procedați, <%= link_to 'contactați-ne', help_contact_path %> și vă vom ajuta să trimiteți solicitarea. Cu toate acestea, trebuie să înțelegeți că nu avem suficiente resurse pentru a face acest lucru cu toți utilizatorii.</p>
-    <p>Vom solicita un nume și un prenume. Dacă găsim nume ridicole sau pseudonimele prea evidente, vom șterge solicitarea și vă vom contacta pentru a găsi o soluție.</p> 
-    <p>Vă rugăm să nu pretindeți că sunteți o altă persoană.</p> 
-    
-    <h2 id="delete">Imi puteti sterge solicitarea sau puteți schimba numele meu?</h2>
-    <p>NuVăSupărați.info este o arhivă publică ce oferă acces permanent la solicitările de informație către instituțiile publice românești. Deși răspunsul la întrebarea dumneavoastră nu mai este util credem că ar putea să îi intereseze pe alți cetățeni. Din acest motiv, nu ștergem solicitările, cu excepția unor <a href="#takedown">circumstanțe excepționale</a> legate de informații confidențiale.</p> 
-    
-    <h2 id="takedown">Puteți șterge informațiile private despre mine?</h2>
-    <p>NuVăSupărați.info nu publică în mod activ date personale sau confidențiale. Oricum vom examina solicitările și dacă găsim date personale publicate accidental le vom elimina.</p>
-    <p>Dacă vedeți orice informații confidențiale care ați să fie șterse vă rugăm <%= link_to 'să ne anunțați', help_contact_path %>. Specificați exact despre ce informație este vorba în cazul în care apare. Vă rugăm să ne contactați chiar dacă informația personală sau confidențiale nu este a dumneavoastră.</p>        
-    <p>Noi credem că numele angajatului instituției care a răspuns solicitării este de interes public. Ștergem acest nume doar în circumstanțe excepționale, cum ar fi în cazul în care a dezvălui numele și funcția deținută poate reprezenta un risc pentru siguranța persoanei. Dacă sunteți angajat al unei instituții și doriți să eliminăm numele dumneavoastră pentru motivele de mai sus, <%= link_to 'trebuie să trimită o cerere', help_contact_path %> prin intermediul șefului de departament sau agenție. Această cerere trebuie să demonstreze că există un risc care merge dincolo de interesul public, și trebuie să demonstreze că au fost luate măsuri pentru a ascunde numele de pe site-ul web al organizației și alte documente care pot fi făcute publice.</p>
-     
-    <h2 id="full_address">O instituție mi-a cerut numărul meu de telefon si adresa mea!</h2>
-    <p>În cazul în care o instituție cere <strong>numărul dumneavoastră de telefon</strong> pentru a discuta sau a clarifica solicitarea dumneavoastră, vă recomandăm să i-l dați direct, nu prin intermediul acestui site.</p>
-    <p>În cazul în care o instituție publică cere <strong>adresa dumneavoastră</strong>, și preferă să primească informații prin e-mail, le puteți răspunde spunând că preferați să primiți informațiile prin e-mail, atâta timp cât informațiile sunt disponibile în format digital.</p>
-    
-    <h2 id="postal_answer">Nu, au nevoie de o adresă poștală pentru a trimite răspunsul dumneavoastră!</h2>
-    <p>Dacă o instituție are doar o copie a informațiilor pe care le doriți, poate cere adresa dumneavoastră poștală într-un mail privat în afara platformei noastre. Puteți încerca să convingeți angajatul instituției că documentele scanate sunt suficiente. Dacă nu reușiți și decide să le trimită la adresa dumneavoastră poștală, le puteți încărca pe site ulterior.</p>
-    <p><%= link_to 'Spuneți-ne', help_contact_path %> când ajung informațiile și apoi le puteți încărca pe site-ul nostru. Scanați documentul și veți primi o adresă de e-mail pe care o puteți folosi pentru acest scop.</p>
+    <p>
+      Adresa ta de email va fi dezvăluită dacă trimiți un mesaj unui alt utilizator NuVăSupărați.info. Îți vom atrage atenția, automat, înainte de a trimite mesajul.
+    </p>
+
+    <h2><a id="email_terti" href="#email_terti">Veți publica, oferi sau vinde adresa mea de email?</a></h2>
+
+    <p>
+      Nu! Niciodată nu vom oferi sau vinde adresa ta de email nimănui! Singura excepție posibilă este dacă ni se cere asta printr-un mandat, conform legilor în vigoare.
+    </p>
+
+    <p>
+      Dacă te înscrii pe acest site, vei primi emailuri legate exclusiv de solicitarea ta sau de alte alerte pe care tu le autorizezi explicit. Mai multe detalii în Politica de confidențialitate.
+    </p>
+
+
+    <h2><a id="nume" href="#nume">De ce sunt publicate numele meu și solicitarea mea în NuVăSupărați.info?</a></h2>
+
+    <p>
+      Noi publicăm solicitarea pe Internet pentru ca toată lumea să poată să o citească și să folosească informațiile oficiale pe care le-ai obținut, pentru că sunt de interes public. De obicei, nu eliminăm solicitări din sistem (mai multe detalii).
+    </p>
+
+    <p>
+      Numele tău, însă, este publicat tocmai pentru că este o parte a solicitării. Este normal ca acest lucru să se întâmple, așa cum, de asemenea, se publică și numele angajatului instituției care îți răspunde.
+    </p>
+
+    <p>
+      Utilizarea numelui real îi ajută pe alți cetățeni să te contacteze, pentru a sprijini solicitarea ta, prin intervenții scrise ori prin replicarea solicitării către alte instituții similare.
+    </p>
+
+    <h2><a id="pseudonim" href="#pseudonim">Pot solicita informații folosind un pseudonim?</a></h2>
+
+    <p>
+      Îți recomandăm să folosești numele real, atunci când trimiți solicitări de acces la informații. Îți exerciți un drept care constituie baza unei societăți deschise și democratice. Deci, folosește-ți numele real, că nu ar trebui să fie o problemă. De fapt, acest lucru contribuie la obținerea unei mai bune comunicări cu instituția.
+    </p>
+
+    <p>
+      Dacă numele tău este bine cunoscut, poți ruga un prieten să trimită solicitarea în locul tău. Dacă nu știi cum să procedezi, contactează-ne și te vom ajuta să trimiți solicitarea. Cu toate acestea, trebuie să înțelegi că nu avem suficiente resurse pentru a face acest lucru cu toți utilizatorii.
+    </p>
+
+    <p>
+      Vom solicita un nume și un prenume. Dacă găsim nume ridicole sau pseudonime prea evidente, vom șterge solicitarea și te vom contacta pentru a găsi o soluție.
+    </p>
+
+    <p>
+      Te rugăm să nu pretinzi că ai fi o altă persoană.
+    </p>
+
+
+    <h2><a id="sterge" href="#sterge">Imi puteți șterge solicitarea sau îmi puteți schimba numele?</a></h2>
+
+
+    <p>
+      NuVăSupărați.info este o arhivă publică, prin care se oferă acces permanent la solicitările de informații de la instituțiile publice românești. Deși răspunsul la întrebarea ta nu-ți mai este ție util, după ce l-ai primit în nume personal, noi credem că informațiile de-acolo, fiind de interes public, ar trebui să fie accesibile și pentru alți cetățeni. Din acest motiv, nu ștergem solicitările, cu excepția unor circumstanțe excepționale, în legătură cu informații care trebuie să rămână confidențiale.
+    </p>
+
+    <h2>Puteți șterge informațiile cu caracter personal despre mine?</h2>
+
+    <p>
+      NuVăSupărați.info nu publică în mod activ date personale sau confidențiale. Oricum, vom examina solicitările și, dacă găsim date personale publicate accidental, le vom elimina.
+    </p>
+
+    <p>
+      Dacă vezi orice informații confidențiale sau cu caracter personal, despre care crezi c-ar trebui să fie șterse, te rugăm să ne anunți. Specifică-ne exact despre ce informație este vorba, în cazul în care apare și unde anume. Te rugăm să ne contactezi chiar dacă informația respectivă nu este a ta.
+    </p>
+
+    <p>
+      Noi credem că numele angajatului instituției care a răspuns solicitării este de interes public. Ștergem acest nume doar în circumstanțe excepționale, cum ar fi în cazul în care a dezvălui numele și funcția deținută poate reprezenta un risc pentru siguranța acelui funcționar. Dacă ești angajat/funcționar al unei instituții și dorești să eliminăm numele tău, pentru motivele de mai sus, trebuie să ne trimiți o cerere în acest sens. Această cerere trebuie să demonstreze că există un risc care merge dincolo de interesul public și că au fost luate măsuri similare pentru a ascunde acel nume inclusiv de pe site-ul instituției ori din alte documente de interes public.
+    </p>
+
+    <h2><a id="telefon" href="#telefon">O instituție mi-a cerut numărul de telefon și adresa!</a></h2>
+
+    <p>
+      În cazul în care o instituție îți cere numărul de telefon pentru a discuta sau a clarifica solicitarea, îți recomandăm să i-l dai direct, nu prin intermediul acestui site.
+    </p>
+
+    <p>
+      În cazul în care o instituție publică îți cere adresa și preferă să primească informații prin email, îi poți răspunde că preferi să primești informațiile prin email, atâta timp cât informațiile sunt disponibile în format digital.
+    </p>
+
+
+    <h2><a id="raspuns" href="#raspuns">Instituțiile nu au neapărată nevoie de o adresă poștală pentru a-ți trimite răspunsul!</a></h2>
+
+    <p>
+      Dacă o instituție are doar o copie tipărită a informațiilor pe care le dorești, îți poate cere adresa poștală printr-un mail privat, în afara platformei noastre. Poți încerca să convingi angajatul sau funcționarul instituției că documentele scanate sunt suficiente. Dacă nu reușești așa, dar primești răspunsul la adresa poștală, le poți încărca pe site ulterior.
+    </p>
+
+    <p>
+      Spune-ne când ajung informațiile și, apoi, le poți încărca pe site-ul nostru. Te vom ruga să scanezi documentul primit și să ni-l trimiți la o adresă de email specială pentru acest scop.
+    </p>
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
