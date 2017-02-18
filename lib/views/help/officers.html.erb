@@ -1,80 +1,121 @@
 <% @title = "Informații pentru instituții" %>
 
-<%= render :partial => 'sidebar' %>
-<div id="left_column_flip">
-    <h1>Informații pentru instituții</h1>
-    <h3><a href="#what">Ce este NuVăSupărați.info?</a></h3>
-    <h3><a href="#processing_requests">Procesul prin care se trimit solicitări</a></h3>
-    <h3><a href="#privacy_issues">Viață privată</a></h3>
+    <%= render :partial => 'sidebar' %>
+        <div id="left_column_flip">
 
+            <h3 id="what">Ce este NuVăSupărați.info?</h3>
 
-Am ajuns la această pagină prin intermediul unei solicitări de acces la informații. Ce se găsește aici?
+            <h6>Am ajuns la această pagină prin intermediul unei solicitări de acces la informații. Ce se găsește aici?</h6>
 
-    NuVăSupărați.info este un site creat de cățiva activiști civici, pentru a ajuta cetățenii români să solicite informații de interes public de la instituțiile publice românești și să împărtășească răspunsurile primite cu restul cetățenilor.
+            <p>
+                NuVăSupărați.info este un site creat de cățiva activiști civici, pentru a ajuta cetățenii români să solicite informații de interes public de la instituțiile publice românești și să împărtășească răspunsurile primite cu restul cetățenilor.
+            </p>
 
-    Această solicitare a fost trimisă prin NuVăSupărați.info.
+            <p>
+                Această solicitare a fost trimisă prin NuVăSupărați.info.
+            </p>
 
-    Instituția trebuie doar să răspundă la solicitare, în același mod în care ar răspunde la orice altă solicitare de acces la informații. Singura diferență este că răspunsul este publicat automat și pe site-ul de NuVăSupărați.info.
+            <p>
+                Instituția trebuie doar să răspundă la solicitare, în același mod în care ar răspunde la orice altă solicitare de acces la informații. Singura diferență este că răspunsul este publicat automat și pe site-ul de NuVăSupărați.info.
+            </p>
 
-    Dacă aveți întrebări cu privire la protejarea vieții private și/sau a datelor personale ori altă problemă, vă rugăm să citiți mai departe, deoarece e posibil ca problemele respective să fi fost deja rezolvate.
+            <p>
+                Dacă aveți întrebări cu privire la protejarea vieții private și/sau a datelor personale ori altă problemă, vă rugăm să citiți mai departe, deoarece e posibil ca problemele respective să fi fost deja rezolvate.
+            </p>
 
-    Dacă doriți să aflați mai multe despre acest proiect, ați putea citi secțiunea Despre noi.
+            <p>
+                Dacă doriți să aflați mai multe despre acest proiect, ați putea citi secțiunea Despre noi.
+            </p>
 
-    De asemenea, puteți naviga prin site, pentru a vedea ce alte solicitări au fost trimise către instituția dumneavoastră sau către alte instituții și să vedeți ce stare are fiecare răspuns.
+            <p>
+                De asemenea, puteți naviga prin site, pentru a vedea ce alte solicitări au fost trimise către instituția dumneavoastră sau către alte instituții și să vedeți ce stare are fiecare răspuns.
+            </p>
 
-    Dacă aveți comentarii, idei sau sugestii despre acest site, vă rugam să ne contactați.
+            <p>
+                Dacă aveți comentarii, idei sau sugestii despre acest site, vă rugam să ne contactați.
+            </p>
 
-    De ce publicăm aici răspunsurile la solicitările de informații?
+            <h6>De ce publicăm aici răspunsurile la solicitările de informații?</h6>
 
-    Noi credem că aduce beneficii. În principal, încurajează cetățenii să fie mai interesați și implicați în activitățile instituțiilor publice. De asemenea, sperăm că, informațiile fiind de interes public, putem reduce numărul de solicitări duplicate pe care le primesc instituțiile publice.
+            <p>
+                Noi credem că aduce beneficii. În principal, încurajează cetățenii să fie mai interesați și implicați în activitățile instituțiilor publice. De asemenea, sperăm că, informațiile fiind de interes public, putem reduce numărul de solicitări duplicate pe care le primesc instituțiile publice.
+            </p>
 
-    Oamenii care fac solicitări sunt reali?
+            <h6>Oamenii care fac solicitări sunt reali?</h6>
 
-    Desigur. Înainte de a trimite o solicitare, toți utilizatorii trebuie să se înregistreze pe site-ul nostru și primesc un e-mail de verificare.
+            <p>
+                Desigur. Înainte de a trimite o solicitare, toți utilizatorii trebuie să se înregistreze pe site-ul nostru și primesc un e-mail de verificare.
+            </p>
 
-    Pentru ca sistemul să funcționeze automat, folosim câte o adresă de email generată de calculator, pentru fiecare dintre solicitări. De aceea, adresa solicitării conține "@nuvasuparati.info".
+            <p>
+                Pentru ca sistemul să funcționeze automat, folosim câte o adresă de email generată de calculator, pentru fiecare dintre solicitări. De aceea, adresa solicitării conține "@nuvasuparati.info".
+            </p>
 
-    Vin prea multe solicitări de la NuVăSupărați.info!
+            <h6>Vin prea multe solicitări de la NuVăSupărați.info!</h6>
 
-    NuVăSupărați.info nu trimite nicio solicitare. NuVăSupărați.info trimite solicitări în numele utilizatorilor, ei sunt oameni reali care doresc informații despre subiectele care îi interesează. Dacă primiți prea multe solciitări, este un semn că există un interes cu privire la instituția dumneavoastră sau activitățile sale.
+            <p>
+                NuVăSupărați.info nu trimite nicio solicitare. NuVăSupărați.info trimite solicitări în numele utilizatorilor, ei sunt oameni reali care doresc informații despre subiectele care îi interesează. Dacă primiți prea multe solciitări, este un semn că există un interes cu privire la instituția dumneavoastră sau activitățile sale.
+            </p>
 
-    Procesul prin care se trimit solicitări
+            <h3 id="processing_requests">Procesul prin care se trimit solicitări</h3>
 
-    IIIIIMAAAAAAAAAAAAAAAAGEEEEEEEEEEEEE HEREEEEEEEEEEEE
+            <p>
+                <%= image_tag 'requesting/using_nvs.png', :alt => 'Cum se foloseşte NuVăSupăraţi.info?' %>
+            </p>
 
-Văd că un utilizator de la NuVăSupărați.info a trimis o solicitare instituției mele, dar nu am primit nici un email!
+            <h6 id="spam_problem">Văd că un utilizator de la NuVăSupărați.info a trimis o solicitare instituției mele, dar nu am primit nici un email!</h6>
 
-În cazul în care o solicitare apare în NuVăSupărați.info, înseamnă că am încercat transmiterea către adresa relevantă de email a instituției dumneavoastră. Un eventual mesaj de eroare apare automat pe site.
+            <p>
+                În cazul în care o solicitare apare în NuVăSupărați.info, înseamnă că am încercat transmiterea către adresa relevantă de email a instituției dumneavoastră. Un eventual mesaj de eroare apare automat pe site.
+            </p>
 
-Puteți verifica adresele de contact la care sunt trimise solicitările, folosind linkul „Vezi adresa de email pentru solicitări," pe pagina fiecărei instituții.
+            <p>
+                Puteți verifica adresele de contact la care sunt trimise solicitările, folosind linkul „Vezi adresa de email pentru solicitări," pe pagina fiecărei instituții.
+            </p>
 
-Vă rugăm să ne contactați, dacă aveți o altă adresă pe care o putem folosi, eventual cu rezultate mai bune pentru utilizatorii noștri. 
+            <p>
+                Vă rugăm să ne contactați, dacă aveți o altă adresă pe care o putem folosi, eventual cu rezultate mai bune pentru utilizatorii noștri.
+            </p>
 
-Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT al instituției dumneavoastră să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.
+            <p>
+                Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT al instituției dumneavoastră să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.
+            </p>
 
-Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT al instituției dumneavoastră să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.
+            <p>
+                Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT al instituției dumneavoastră să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.
+            </p>
 
-Cum se calculează termenul de expirare al solicitărilor?
+            <h6 id="days">Cum se calculează termenul de expirare al solicitărilor?</h6>
 
-Răspunsul la o solicitare scrisă ar trebui primit de utilizatorul nostru în 10 zile de la depunerea solicitării în atenția instituției. Art. 7 din Legea 544 se referă la zile calendaristice; noua formulare din art. 16, alin. 2 din normele metodologice se referă exact la modul de calcul pe care-l folosim și noi, la NuVăSupărați.info. Mai multe detalii despre termene şi costuri în Ghid pentru solicitări.
+            <p>
+                Răspunsul la o solicitare scrisă ar trebui primit de utilizatorul nostru în 10 zile de la depunerea solicitării în atenția instituției. Art. 7 din Legea 544 se referă la zile calendaristice; noua formulare din art. 16, alin. 2 din normele metodologice se referă exact la modul de calcul pe care-l folosim și noi, la NuVăSupărați.info. Mai multe detalii despre termene şi costuri în Ghid pentru solicitări.
+            </p>
 
-Cum se răspunde la solicitări?
+            <h6>Cum se răspunde la solicitări?</h6>
 
-Pur și simplu răspundeți la emailul primit, ca de obicei. Solicitarea va fi trimisă solicitantului și va fi, de asemenea, publicată pe site-ul NuVăSupărați.info.
+            <p>
+                Pur și simplu răspundeți la emailul primit, ca de obicei. Solicitarea va fi trimisă solicitantului și va fi, de asemenea, publicată pe site-ul NuVăSupărați.info.
+            </p>
 
-Cum pot trimite un fișier mare care nu poate fi trimis prin e-mail?
+            <h6>Cum pot trimite un fișier mare care nu poate fi trimis prin e-mail?</h6>
 
-Contactați-ne și vă vom oferi o adresa de web pentru a încărca fișierul, direct din navigatorul dumneavoastră.
+            <p>
+                Contactați-ne și vă vom oferi o adresa de web pentru a încărca fișierul, direct din navigatorul dumneavoastră.
+            </p>
 
-Viață privată
+            <h3 id="privacy_issues">Viață privată</h3>
+            <h6>De ce se publică numele funcționarilor și textul din emailuri?</h6>
 
-De ce se publică numele funcționarilor și textul din emailuri?
+            <p>
+                Noi credem că activitatea funcționarilor este informație de interes public. Eliminăm astfel de informații numai în circumstanțe excepționale. Puteți consulta politica noastră privind eliminarea unor informații.
+            </p>
 
-Noi credem că activitatea funcționarilor este informație de interes public. Eliminăm astfel de informații numai în circumstanțe excepționale. Puteți consulta politica noastră privind eliminarea unor informații.
+            <h6 id="mobiles">Publicați adresele de email și numerele de telefon?</h6>
 
-Publicați adresele de email și numerele de telefon?
+            <p>
+                Pentru a preveni spamul, vom încerca să eliminăm din răspunsurile la solicitări, pe cât posibil automat, toate adresele de email și numerele de telefon mobil. Vă rugăm să ne contactați dacă ați uitat să eliminați astfel de informații.
+            </p>
 
-Pentru a preveni spamul, vom încerca să eliminăm din răspunsurile la solicitări, pe cât posibil automat, toate adresele de email și numerele de telefon mobil. Vă rugăm să ne contactați dacă ați uitat să eliminați astfel de informații.
 
 
 
@@ -84,75 +125,57 @@ Pentru a preveni spamul, vom încerca să eliminăm din răspunsurile la solicit
 
 
 
+            <h3 id="what">Ce este NuVăSupărați.info?</h3>
 
+            <h6>Am venit la această legătură printr-o solicitare de informații. Ce este aceasta?</h6>
+            <p>NuVăSupărați.info este un site creat de membri ai societății civile pentru a ajuta cetățenii români să solicite informații de la instituțiile publice românești și să împartă răspunsurile cu restul cetățenilor.</p>
+            <p>Această solicitare a fost trimisă prin NuVăSupărați.info.</p>
+            <p>Instituția trebuie doar să răspundă la solicitare, în același mod în care ar răspunde la orice altă solicitare de informații. Singura diferență este că răspunsul este publicat automat pe site-ul de NuVăSupărați.info.</p>
+            <p>Dacă aveți întrebări cu privire la protejarea vieții private și/sau a datelor personale sau orice altă problemă, vă rugăm să citiți mai departe, deoarece ar putea fi rezolvate mai târziu.</p>
+            <p>Dacă doriți să aflați mai multe despre acest proiect ați putea citi secțiunea
+                <%= link_to 'Despre noi', help_about_path %>.</p>
+            <p>Puteți naviga, de asemenea, site-ul pentru a vedea ce alte solicitări care au fost trimise instituției dumneavoastră și să vedeți ce starea are răspunsul.</p>
+            <p>Dacă aveți comentarii, idei sau sugestii despre acest site va rugam
+                <%= link_to 'sa ne contactati', help_contact_path %>.</p>
 
+            <h6>De ce publicăm răspunsurile la solicitările de informații?</h6>
+            <p>Noi credem că aduce beneficii. În principal, încurajează cetățenii să fie mai interesați și implicați în activitățile instituțiilor publice.</p>
+            <p>Sperăm de asemenea că, în acest fel, putem reduce numărul de solicitări duplicate pe care le primesc instituțiile publice.</p>
 
+            <h6>Oamenii care fac solicitări sunt reali?</h6>
+            <p>Desigur. Înainte de a trimite o solicitare, toți utilizatorii trebuie să se înregistreze pe site-ul nostru și primesc un e-mail de verificare.</p>
+            <p>Pentru ca sistemul să funcționeze automat, folosim o adresă de email generată de calculator pentru fiecare dintre solicitări. De aceea, adresa solicitării conține "@nuvasuparati.info".</p>
 
+            <h6>Vin prea multe solicitări de la NuVăSupărați.info!</h6>
+            <p>NuVăSupărați.info nu trimite nicio solicitare. NuVăSupărați.info trimite solicitări în numele utilizatorilor, ei sunt oameni reali care doresc informații despre subiectele care îi interesează. Dacă primiți prea multe solciitări, este un semn că există un interes în organizația dumneavoastră sau activitățile sale.</p>
 
+            <h3 id="processing_requests">Procesul prin care se trimit solicitări</h3>
 
+            <h6 id="spam_problems">Văd că NuVăSupărați.info a trimis o solicitare instituției mele, dar nu am primit nici un e-mail!</h6>
+            <p>În cazul în care o solicitare apare în NuVăSupărați.info înseamnă că am încercat să-l trimită la adresa relevantă de e-mail. Orice mesaj de eroare apare automat pe site.</p>
+            <p>Puteți verifica adresa de contact la care sunt trimise solicitările folosind link-ul "Vezi adresa de email pentru solicitări" de pe pagina fiecărei instituții.</p>
 
+            <p>Vă rugăm, dacă aveți o modalitate mai bună pe care o putem folosi,
+                <%= link_to 'să ne contactați', help_contact_path %>. Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.</p>
 
+            <h6 id="days">Cum se calculează termenul de expirare al solicitărilor?</h6>
+            <p>Răspunsul la o solicitare scrisă ar trebui primit în 10 zile de la depunerea acesteia [<a href="http://www.nuvasuparati.info/help/legea544#art7">art. 7 din Legea 544</a> se referă la zile calendaristice, însă <a href="http://www.nuvasuparati.info/help/hg123#art16">art. 16</a> din normele metodologice se referă explicit la zile lucrătoare; echipa NuVăSupărați.info a ales să calculeze termenele conform <a href="http://www.nuvasuparati.info/help/hg123#art16">HG 123</a>, dar va oferi felicitări publice instituţiilor care chiar respectă legea, pentru că o hotărâre de guvern n-ar trebui să adauge la lege];. Mai multe detalii despre termene şi costuri în
+                <%= link_to _("Ghid pentru solicitări"), help_requesting_path(:anchor => 'quickly_response') %>
+            </p>
 
+            <h6>Cum se răspunde la solicitări?</h6>
+            <p>Pur și simplu răspunde la e-mail, ca de obicei. Solicitarea va fi trimisă solicitantului și va fi, de asemenea, publicată pe site-ul NuVăSupărați.info.</p>
 
+            <h6>Cum pot trimite un fișier mare care nu poate fi trimmis prin e-mail? </h6>
+            <p>
+                <%= link_to 'Contactați-ne', help_contact_path %> si va vom oferi o adresa de web pentru a încărca fișierul din navigatorul dumneavoastră.</p>
 
+            <h3 id="privacy_issues">Viață privată</h3>
+            <h6>De ce se publică numele funcționarilor și textul din e-mailuri?</h6>
+            <p>Noi credem că activitatea funcționarilor ar trebui să fie informație de interes public. Eliminăm astfel de informații numai în circumstanțe excepționale. Vezi politica noastră
+                <%= link_to 'de a elimina date', help_privacy_path(:anchor=>'takedown') %>.</p>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <h3 id="what">Ce este NuVăSupărați.info?</h3>
-    
-    <h6>Am venit la această legătură printr-o solicitare de informații. Ce este aceasta?</h6>
-    <p>NuVăSupărați.info este un site creat de membri ai societății civile pentru a ajuta cetățenii români să solicite informații de la instituțiile publice românești și să împartă răspunsurile cu restul cetățenilor.</p>
-    <p>Această solicitare a fost trimisă prin NuVăSupărați.info.</p>
-    <p>Instituția trebuie doar să răspundă la solicitare, în același mod în care ar răspunde la orice altă solicitare de informații. Singura diferență este că răspunsul este publicat automat pe site-ul de NuVăSupărați.info.</p> 
-    <p>Dacă aveți întrebări cu privire la protejarea vieții private și/sau a datelor personale sau orice altă problemă, vă rugăm să citiți mai departe, deoarece ar putea fi rezolvate mai târziu.</p> 
-    <p>Dacă doriți să aflați mai multe despre acest proiect ați putea citi secțiunea <%= link_to 'Despre noi', help_about_path %>.</p>
-    <p>Puteți naviga, de asemenea, site-ul pentru a vedea ce alte solicitări care au fost trimise instituției dumneavoastră și să vedeți ce starea are răspunsul.</p>
-    <p>Dacă aveți comentarii, idei sau sugestii despre acest site va rugam <%= link_to 'sa ne contactati', help_contact_path %>.</p>
-    
-    <h6>De ce publicăm răspunsurile la solicitările de informații?</h6>
-    <p>Noi credem că aduce beneficii. În principal, încurajează cetățenii să fie mai interesați și implicați în activitățile instituțiilor publice.</p> 
-    <p>Sperăm de asemenea că, în acest fel, putem reduce numărul de solicitări duplicate pe care le primesc instituțiile publice.</p> 
-    
-    <h6>Oamenii care fac solicitări sunt reali?</h6>
-    <p>Desigur. Înainte de a trimite o solicitare, toți utilizatorii trebuie să se înregistreze pe site-ul nostru și primesc un e-mail de verificare.</p>
-    <p>Pentru ca sistemul să funcționeze automat, folosim o adresă de email generată de calculator pentru fiecare dintre solicitări. De aceea, adresa solicitării conține "@nuvasuparati.info".</p>
-    
-    <h6>Vin prea multe solicitări de la NuVăSupărați.info!</h6>
-    <p>NuVăSupărați.info nu trimite nicio solicitare. NuVăSupărați.info trimite solicitări în numele utilizatorilor, ei sunt oameni reali care doresc informații despre subiectele care îi interesează. Dacă primiți prea multe solciitări, este un semn că există un interes în organizația dumneavoastră sau activitățile sale.</p>
-
-    <h3 id="processing_requests">Procesul prin care se trimit solicitări</h3>
-    
-    <h6 id="spam_problems">Văd că NuVăSupărați.info a trimis o solicitare instituției mele, dar nu am primit nici un e-mail!</h6>
-    <p>În cazul în care o solicitare apare în NuVăSupărați.info înseamnă că am încercat să-l trimită la adresa relevantă de e-mail. Orice mesaj de eroare apare automat pe site.</p>
-    <p>Puteți verifica adresa de contact la care sunt trimise solicitările folosind link-ul "Vezi adresa de email pentru solicitări" de pe pagina fiecărei instituții.</p>
-
-    <p>Vă rugăm, dacă aveți o modalitate mai bună pe care o putem folosi, <%= link_to 'să ne contactați', help_contact_path %>. Uneori, solicitările sunt blocate de filtrele de spam. Pentru a vă asigura că acest lucru nu se întâmplă, cereți la departamentul IT să adauge orice adresă de e-mail "@nuvasuparati.info" în lista de expeditori permiși.</p>
-    
-    <h6 id="days">Cum se calculează termenul de expirare al solicitărilor?</h6>
-    <p>Răspunsul la o solicitare scrisă ar trebui primit în 10 zile de la depunerea acesteia [<a href="http://www.nuvasuparati.info/help/legea544#art7">art. 7 din Legea 544</a> se referă la zile calendaristice, însă <a href="http://www.nuvasuparati.info/help/hg123#art16">art. 16</a> din normele metodologice se referă explicit la zile lucrătoare; echipa NuVăSupărați.info a ales să calculeze termenele conform <a href="http://www.nuvasuparati.info/help/hg123#art16">HG 123</a>, dar va oferi felicitări publice instituţiilor care chiar respectă legea, pentru că o hotărâre de guvern n-ar trebui să adauge la lege];. Mai multe detalii despre termene şi costuri în <%= link_to _("Ghid pentru solicitări"), help_requesting_path(:anchor => 'quickly_response') %></p>
-    
-    <h6>Cum se răspunde la solicitări?</h6>
-    <p>Pur și simplu răspunde la e-mail, ca de obicei. Solicitarea va fi trimisă solicitantului și va fi, de asemenea, publicată pe site-ul NuVăSupărați.info.</p>
-    
-    <h6>Cum pot trimite un fișier mare care nu poate fi trimmis prin e-mail? </h6>
-    <p><%= link_to 'Contactați-ne', help_contact_path %> si va vom oferi o adresa de web pentru a încărca fișierul din navigatorul dumneavoastră.</p>
-    
-    <h3 id="privacy_issues">Viață privată</h3>
-    <h6>De ce se publică numele funcționarilor și textul din e-mailuri?</h6>
-    <p>Noi credem că activitatea funcționarilor ar trebui să fie informație de interes public. Eliminăm astfel de informații numai în circumstanțe excepționale. Vezi politica noastră <%= link_to 'de a elimina date', help_privacy_path(:anchor=>'takedown') %>.</p>
-
-    <h6 id="mobiles">Publicați adresele de email și numerele de telefon?</h6>
-    <p>Pentru a preveni spam-ul, vom încerca să eliminăm automat, pe cât posibil, toate adresele de e-mail și numerele de telefon mobil din răspunsurile la solicitări. Vă rugăm <%= link_to 'să ne contactați', help_contact_path %> dacă ați uitat să eliminați astfel de informații.</p>
-</div>
+            <h6 id="mobiles">Publicați adresele de email și numerele de telefon?</h6>
+            <p>Pentru a preveni spam-ul, vom încerca să eliminăm automat, pe cât posibil, toate adresele de e-mail și numerele de telefon mobil din răspunsurile la solicitări. Vă rugăm
+                <%= link_to 'să ne contactați', help_contact_path %> dacă ați uitat să eliminați astfel de informații.</p>
+        </div>
