@@ -1,0 +1,27 @@
+<% @title = "Making requests" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip" class="left_column_flip">
+    <% if params[:country_name] %>
+        <h1>
+            <%= _("Ți-ar plăcea să vezi un site similar în țara ta?") %>
+        </h1>
+    <% end %>
+    <p>Acest site este realizat cu tehnologie Alaveteli, un <a href="https://ceata.org/philosophy/free-software.ro.html">program liber</a>, specializat pentru solicitări de acces la informații de interes public. Alaveteli este gândit astfel încât să poată fi tradus în orice limbă, respectiv să fie adaptat pentru <a href="http://alaveteli.org/deployments/">diferite varietăți</a> naționale sau substanțiale ale legilor privind liberul acces la informații. Deocamdată, Alaveteli este utilizat în peste 20 de limbi, în 25 de jurisdicții (state naționale sau chiar Uniunea Europeană).</p>
+
+    <p>Dezvoltarea software-ului Alaveteli, prin intermediul <a href="https://www.mysociety.org">mySociety</a>, este sponsorizată și susținută de numeroase fundații și organizații caritabile interesate de promovarea transparenței în întreaga lume.</p>
+
+    <p>Dacă și tu dorești să configurezi un site bazat pe Alaveteli, te putem ajuta. Vei avea nevoie de câteva zile de muncă asiguă, până ce site-ul va fi cât-de-cât utilizabil, după care vei petrece cel puțin o oră pe săptămână asigurând moderarea și mentenanța (poate mai mult, dacă va fi un site foarte atractiv).
+    </p>
+
+    <p>Citește mai multe pe <a href="http://alaveteli.org">site-ul Alaveteli</a>, sau <a href="mailto:hello@alaveteli.org">scrie-ne un email</a>.</p>
+
+    <p>Schema de funcționare, pe scurt, arată așa:</p>
+
+    <p>
+        <%= image_tag 'requesting/using_nvs.png', :alt => 'Cum se foloseşte NuVăSupăraţi.info?' %>
+    </p>
+
+
+    <div id="hash_link_padding"></div>
+</div>
